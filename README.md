@@ -26,12 +26,13 @@ Information about Visual Studio
 ## Key Features
 
 - **Multi-Language Support**: C#, C++, Python, JavaScript, TypeScript, F#, and more.
-- **Debugging Tools**: Advanced debugging with breakpoints, variable inspection, and call stacks.
-- **Version Control**: Built-in Git and Azure DevOps integration.
-- **Testing Frameworks**: Support for unit tests, load tests, and live testing.
-- **Cross-Platform Development**: Tools for creating applications for Windows, Linux, macOS, iOS, and Android.
-- **Extensions Marketplace**: Thousands of extensions for additional tools and customizations.
-- **Cloud Integration**: Seamless integration with Azure for cloud-based development.
+- **AI-Assisted Productivity**: IntelliCode and GitHub Copilot integration for smarter code completion, refactoring, and generation.
+- **Debugging Tools**: Advanced debugging with breakpoints, time travel and snapshot debugging, variable inspection, and call stacks.
+- **Version Control**: Built-in Git, GitHub, and Azure DevOps integration with easy branching, pull requests, and history views.
+- **Testing & Quality**: Support for unit tests, live testing, code coverage, profiling, and static analysis.
+- **Cross-Platform Development**: Modern support for .NET MAUI, Blazor, desktop, mobile, web, and cloud-native applications.
+- **Extensions Marketplace**: Thousands of extensions for additional tools, productivity workflows, and customizations.
+- **Cloud & Remote Development**: Seamless Azure integration, container debugging, WSL support, and remote development workflows.
 
 ---
 
@@ -51,7 +52,9 @@ Information about Visual Studio
 | **2015** | **Visual Studio 2015** | - Cross-platform development tools (Xamarin, Apache Cordova).<br>- C# 6.0 support (string interpolation, null-conditional operators). |
 | **2017** | **Visual Studio 2017** | - Enhanced startup performance.<br>- Live Unit Testing.<br>- Advanced debugging tools (Run to Click). |
 | **2019** | **Visual Studio 2019** | - IntelliCode (AI-driven code suggestions).<br>- Git-first workflow.<br>- Debugging improvements (search in Autos, Locals, and Watch windows). |
-| **2022** | **Visual Studio 2022** | - First **64-bit** version for improved performance.<br>- Support for .NET 6.<br>- Hot Reload for live application updates.<br>- Improved UI and accessibility. |
+| **2022** | **Visual Studio 2022** | - First **64-bit** version for improved performance on large solutions.<br>- Support for .NET 6, .NET 7, .NET 8, Blazor, and .NET MAUI.<br>- Hot Reload, container and WSL workflows, and GitHub Copilot integration.<br>- Improved UI, accessibility, and collaboration with Live Share. |
+
+The Visual Studio 2022 major release continues evolving through the 17.x channel, with ongoing updates for cloud, AI, and cross-platform development.
 
 ---
 
@@ -71,30 +74,30 @@ Information about Visual Studio
 ## How Visual Studio Works
 
 1. **Code Editing**:  
-   - Provides syntax highlighting, IntelliSense, and AI-assisted IntelliCode.
+   - Provides syntax highlighting, IntelliSense, AI-assisted IntelliCode, and real-time refactoring.
 
 2. **Build Tools**:  
-   - Compiles code using integrated compilers (e.g., Roslyn for C#).
+   - Compiles code with integrated compilers (e.g., Roslyn for C#), plus live builds for .NET, containers, and cloud workloads.
 
 3. **Debugging**:  
-   - Offers breakpoints, call stacks, and live variable inspection.
+   - Offers breakpoints, Hot Reload, call stacks, snapshot debugging, and cloud/remote debugging support.
 
 4. **Version Control**:  
-   - Integrated Git and Azure DevOps support.
+   - Integrated Git, GitHub, and Azure DevOps support with easy branching, pull requests, and history views.
 
 5. **Testing**:  
-   - Built-in tools for unit tests, load tests, and code coverage analysis.
+   - Built-in tools for unit tests, live testing, code coverage, profiling, and static code analysis.
 
 6. **Extensions**:  
-   - Marketplace with thousands of extensions for productivity and customization.
+   - Marketplace with thousands of extensions for developer workflows, container tooling, Azure integration, and more.
 
 ---
 
 ## Supported Technologies
 
 - **Languages**: C#, C++, F#, Python, JavaScript, TypeScript, and more.
-- **Frameworks**: .NET Framework, .NET Core, ASP.NET, Xamarin, WPF, UWP.
-- **Platforms**: Windows, Linux, macOS, iOS, Android, and Azure Cloud.
+- **Frameworks**: .NET Framework, .NET Core, ASP.NET Core, Blazor, .NET MAUI, WPF, UWP, and Azure-native services.
+- **Platforms**: Windows, Linux, macOS, iOS, Android, Azure Cloud, containers, and Kubernetes.
 
 ---
 
@@ -109,15 +112,18 @@ Information about Visual Studio
    - Established as the standard IDE for .NET development.
 
 3. **Cross-Platform Development**:
-   - Tools like Xamarin and .NET MAUI enable mobile and cross-platform apps.
+   - Tools like .NET MAUI, Blazor, and Azure DevOps enable modern mobile, desktop, web, and cloud apps.
 
 ### **Challenges**
 
 1. **System Requirements**:
-   - Known for its high memory and CPU usage, especially in older versions.
+   - Known for high memory and CPU usage on large solutions, especially in feature-rich workloads.
 
 2. **Complexity**:
-   - Can be overwhelming for beginners due to its extensive features.
+   - Can be overwhelming for beginners and teams new to the full Visual Studio ecosystem.
+
+3. **Evolving Tooling**:
+   - Frequent updates and shifting frameworks require teams to balance stability with innovation.
 
 ---
 
