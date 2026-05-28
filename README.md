@@ -54,6 +54,7 @@ Information about Visual Studio
 | **2017** | **Visual Studio 2017** | - Enhanced startup performance.<br>- Live Unit Testing.<br>- Advanced debugging tools (Run to Click). |
 | **2019** | **Visual Studio 2019** | - IntelliCode (AI-driven code suggestions).<br>- Git-first workflow.<br>- Debugging improvements (search in Autos, Locals, and Watch windows). |
 | **2022** | **Visual Studio 2022** | - First **64-bit** version for improved performance on large solutions.<br>- Support for .NET 6, .NET 7, .NET 8, Blazor, and .NET MAUI.<br>- Hot Reload, container and WSL workflows, and GitHub Copilot integration.<br>- Improved UI, accessibility, and collaboration with Live Share. |
+| **2023–2026** | **Servicing and updates** | - No new branded Visual Studio major version after 2022.<br>- Continuous updates through the 17.x servicing channel deliver performance, quality, cloud, and AI improvements.<br>- Latest servicing releases focus on .NET SDK support, Azure workflows, security, and installer reliability. |
 
 As of May 2026, Visual Studio 2022 remains the latest major release. Microsoft continues to deliver new capabilities through regular updates in the 17.x servicing channel rather than through a newer branded major version.
 
