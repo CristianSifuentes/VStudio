@@ -9,6 +9,7 @@ Information about Visual Studio
 - [What is Visual Studio?](#what-is-visual-studio)
 - [Key Features](#key-features)
 - [Visual Studio Timeline](#visual-studio-timeline)
+- [Visual Studio Release History](#visual-studio-release-history)
 - [Significant Editions](#significant-editions)
 - [How Visual Studio Works](#how-visual-studio-works)
 - [Supported Technologies](#supported-technologies)
@@ -55,6 +56,32 @@ Information about Visual Studio
 | **2022** | **Visual Studio 2022** | - First **64-bit** version for improved performance on large solutions.<br>- Support for .NET 6, .NET 7, .NET 8, Blazor, and .NET MAUI.<br>- Hot Reload, container and WSL workflows, and GitHub Copilot integration.<br>- Improved UI, accessibility, and collaboration with Live Share. |
 
 The Visual Studio 2022 major release continues evolving through the 17.x channel, with ongoing updates for cloud, AI, and cross-platform development.
+
+---
+
+## Visual Studio Release History
+
+Visual Studio follows a continuous servicing model with frequent updates for performance, reliability, security, and new features. The Stable channel is the recommended path for most developers, and the Community edition is supported only on the Stable channel using the latest release.
+
+Enterprise and Professional customers retain flexibility through older release availability, allowing controlled adoption of updates and compatibility with enterprise environments. For planning and support, refer to Microsoft’s Visual Studio support policy and release rhythm documentation.
+
+### Release Notes and Installation
+
+- Visual Studio release notes are published on the Microsoft Docs site: https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes
+
+- Stable-channel installers:
+  - Enterprise: https://aka.ms/vs/stable/vs_enterprise.exe
+  - Professional: https://aka.ms/vs/stable/vs_professional.exe
+  - Community: https://aka.ms/vs/stable/vs_community.exe
+  - Build Tools: https://aka.ms/vs/stable/vs_buildtools.exe
+
+### Install a Specific Release
+
+Enterprise and Professional customers can install or update to a specific release using channel-specific bootstrappers. Administrator Update packages for older releases are available from the Microsoft Update Catalog. These tools help maintain consistency for network layouts and managed installations.
+
+### Rollback and Reverting
+
+Visual Studio supports rollback to the immediately prior installed version only. If you need a different earlier release, uninstall the current version and reinstall the preferred release manually. Note that uninstalling Visual Studio does not remove standalone components such as .NET runtimes, SDKs, SQL Server components, or redistributables.
 
 ---
 
